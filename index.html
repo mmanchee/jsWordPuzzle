@@ -11,7 +11,7 @@
 </head>
 <body>
   <div class="container">
-    <div class="jumbotron">
+    <div class="jumbotron text-center">
       <h1>JS Word Puzzle</h1>
       <h2>Type in a sentance and watch the magic.</h2>
     </div>
@@ -20,8 +20,11 @@
         <label for="sentence1">Write a sentence</label>
         <input id="sentence1" class="form-control" type="text">
       </div>
-      <button type="submit" class="btn bg-info">Magic</button>
+      <button type="submit" class="btn btn-info">Magic</button>
     </form>
+    <div id="show-result">
+      <p id="result"></p>
+    </div>
   </div>
 </body>
 </html>

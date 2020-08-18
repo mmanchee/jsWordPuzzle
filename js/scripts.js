@@ -8,11 +8,13 @@ function wordScramble(sentence) {
       }
     }
   }
-  return sentArray;
+  sentence = sentArray.join("");
+  
+  return sentence;
 }
 
 $(document).ready(function() {
-  $("#word-puzzle").click(function(event) {
+  $(".word-puzzle").click(function(event) {
     const sent1 = $("input#sentence1").val();
 
     const puzzle = wordScramble(sent1);

@@ -7,23 +7,78 @@
   <link rel="stylesheet" href="css/styles.css">
   <script src="js/jquery-3.5.1.js"></script>
   <script src="js/scripts.js"></script>
-  <title>Word Puzzle</title>
+  <title>Pig Latin</title>
 </head>
 <body>
   <div class="container">
     <div class="jumbotron text-center">
-      <h1>JS Word Puzzle</h1>
-      <h2>Type in a sentance and watch the magic.</h2>
+      <h1>Welcome to Word Magic</h1>
+      <h2>Enter a word or sentance into each field and watch the magic.</h2>
     </div>
-    <form class="word-puzzle">
+    <div>
+      <h3>Number of Vowels</h3>
+    </div>
+    <form id="form-input1">
       <div class="form-group">
-        <label for="sentence1">Write a sentence</label>
-        <input id="sentence1" class="form-control" type="text">
+        <label for="input1">Enter a sentence and get back the number of vowels in it.</label>
+        <input id="input1" class="form-control" type="text">
+      </div>
+      <button type="submit" class="btn btn-info">Number of Vowels</button>
+    </form>
+    <div>
+      <p id="result1"></p>
+    </div>
+    <div>
+      <h3>Pig Latin</h3>
+    </div>
+    <form id="form-input2">
+      <div class="form-group">
+        <label for="input2">Enter a word or a sentance and turn it into Pig Latin</label>
+        <input id="input2" class="form-control" type="text">
+      </div>
+      <button type="submit" class="btn btn-info">Pig Latin</button>
+    </form>
+    <div>
+      <p id="result2"></p>
+    </div>
+    <div>
+      <h3>Word Puzzle</h3>
+    </div>
+    <form id="form-input3">
+      <div class="form-group">
+        <label for="input3">Write a sentence</label>
+        <input id="input3" class="form-control" type="text">
       </div>
       <button type="submit" class="btn btn-info">Magic</button>
     </form>
     <div id="show-result">
-      <p id="result"></p>
+      <p id="result3"></p>
+    </div>
+    <div>
+      <h3>Roman Numerals</h3>
+    </div>
+    <form id="form-input4">
+      <div class="form-group">
+        <label for="input4">Enter Number</label>
+        <input id="input4" class="form-control" type="text"> 
+      </div>
+      <button type="submit" class="btn btn-info">magic</button>
+    </form>
+    <div>
+      <p id="result4"></p>
+    </div>
+    <div>
+      <h3>Word Puzzle</h3>
+    </div>
+    <form id="form-input5">
+      <div class="form-group">
+        <label for="input5">Write a sentence</label>
+        <input id="input5" class="form-control" type="text">
+      </div>
+      <button type="submit" class="btn btn-info">Magic</button>
+    </form>
+    <div >
+      <p id="result5"></p>
     </div>
   </div>
 </body>
